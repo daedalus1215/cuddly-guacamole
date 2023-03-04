@@ -12,6 +12,7 @@ c = CurrencyRates()
 
 [print(date) for date in df.index if date.weekday() < 5]
 # Download the USD/EUR rate for each required date:
+# Warning, this is not performant. We are grabbing the rates for each date individually upon demand.
 df["usd_eur"] = [c.get_rate("USD", "EUR", date) for date in df.index if date.weekday() < 5]
 # Convert the price from USD to EUR:
 for column in df.columns[:-1]:

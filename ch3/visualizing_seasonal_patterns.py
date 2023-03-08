@@ -29,10 +29,14 @@ sns.lineplot(
 )
 plt.title("Unemployment rate - Seasonal plot")
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2)
-plt.show()
+# plt.show()
 
 
 from statsmodels.graphics.tsaplots import month_plot, quarter_plot
 import plotly.express as px
 
-# month_plot(df["unemp_rate"], ylabel="Unemployment rate (%)") plt.title("Unemployment rate - Month plot")
+month_plot(df["unemp_rate"], ylabel="Unemployment rate (%)")
+plt.title("Unemployment rate - Month plot")
+quarter_plot(df["unemp_rate"].resample("Q").mean(), ylabel="Unemployment rate (%)")
+plt.title("Unemployment rate - Quarter plot")
+plt.show()

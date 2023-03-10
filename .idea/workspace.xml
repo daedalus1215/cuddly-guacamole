@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch3/candle_stick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3/candle_stick2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/adjusting_returns_for_inflation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/aggregating_trade_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/annualize_realized_volatility_over_months.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/backward_forward_filling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/converting_currencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/.ipynb_checkpoints/candle_stick-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/basic_visualization_of_time_series_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/interactive_visualizations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/interactive_visualizations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/visualizing_seasonal_patterns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fin_cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fin_cookbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/interactive_visualizations.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/interactive_visualizations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/candle_stick.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/candle_stick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pip.pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/candle_stick.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +48,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../effective_python/algo_trading/lib/python3.10/site-packages/binance/client.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../effective_python/algo_trading/lib/python3.10/site-packages/binance/__init__.py" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,15 +59,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/fin_cook" />
+      <recent name="$PROJECT_DIR$/ch3" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook" />
+      <recent name="$PROJECT_DIR$/fin_cook/ch3" />
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>

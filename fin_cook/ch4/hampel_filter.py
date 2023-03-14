@@ -23,4 +23,21 @@ ax.scatter(df.loc[df["outlier"]].index,
            label="outlier")
 ax.set_title("Tesla's stock price")
 ax.legend(loc="center left", bbox_to_anchor=(1,0.5))
-plt.show()
+# plt.show()
+
+# For comparison's sake, we can also apply the very same filter to the returns calculated using the adjusted close prices
+df["outlier_rtn"] = hampel_detector.fit_transform(df["rtn"])
+# We just need to fit the hampel filter to the new data (returns) and transform it to get the boolean flag
+# Plot Tesla's daily returns and mark the outliers
+fig, ax = plt.subplots()
+df[["rtn"]].plot(ax=ax)
+ax.scatter(df.loc[df["outlier_rtn"]].index,
+           df.loc[df["outlier_rtn"], "rtn"],
+           color="black", label="outlier")
+ax.set_title("Tesla's stock returns")
+ax.legend(loc="center left", bbox_to_anchor=(1, 0.5))
+
+# plt.show()
+
+# Can investigate the overlap and see how many times they converge.
+print(df.query("outlier == True and outlier_rtn == True"))

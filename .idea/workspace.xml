@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch3/candle_stick2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/adjusting_returns_for_inflation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/aggregating_trade_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/annualize_realized_volatility_over_months.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/backward_forward_filling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch2/converting_currencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/.ipynb_checkpoints/candle_stick-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/basic_visualization_of_time_series_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/candle_stick2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/interactive_visualizations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/interactive_visualizations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch3/visualizing_seasonal_patterns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fin_cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fin_cookbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/leverage_effects.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/candle_stick.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/candle_stick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pip.pip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/candle_stick.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch4/hurst_exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch4/hurst_exponential.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +29,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.pyenv/versions/3.10.10/lib/python3.10/site-packages/sktime/transformations/series/outlier_detection.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -59,44 +43,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
+      <recent name="$PROJECT_DIR$/fin_cook/ch3" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fin_cook" />
       <recent name="$PROJECT_DIR$/ch3" />
-      <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
       <recent name="$PROJECT_DIR$/fin_cook" />
       <recent name="$PROJECT_DIR$/fin_cook/ch3" />
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.candle_stick">
-    <configuration name="aggregating_trade_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2/aggregating_trade_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leverage_effects">
     <configuration name="backward_forward_filling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +85,7 @@
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
       </method>
     </configuration>
-    <configuration name="basic_visualization_of_time_series_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hurst_exponential" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3/basic_visualization_of_time_series_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/hurst_exponential.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="candle_stick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leverage_effects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,22 +114,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3/candle_stick.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/leverage_effects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="interactive_visualizations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="non_gaussian_distribution_of_returns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,22 +135,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3/interactive_visualizations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/non_gaussian_distribution_of_returns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="visualizing_seasonal_patterns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="small_and_decreasing_autocorrelation_in_squared_abs_returns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,36 +156,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3/visualizing_seasonal_patterns.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/small_and_decreasing_autocorrelation_in_squared_abs_returns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
-      </method>
+      <method v="2" />
+    </configuration>
+    <configuration name="volatility_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/volatility_clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
-      <item itemvalue="Python.aggregating_trade_data" />
-      <item itemvalue="Python.basic_visualization_of_time_series_data" />
-      <item itemvalue="Python.visualizing_seasonal_patterns" />
-      <item itemvalue="Python.interactive_visualizations" />
-      <item itemvalue="Python.candle_stick" />
+      <item itemvalue="Python.hurst_exponential" />
+      <item itemvalue="Python.non_gaussian_distribution_of_returns" />
+      <item itemvalue="Python.volatility_clustering" />
+      <item itemvalue="Python.small_and_decreasing_autocorrelation_in_squared_abs_returns" />
+      <item itemvalue="Python.leverage_effects" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.candle_stick" />
-        <item itemvalue="Python.interactive_visualizations" />
-        <item itemvalue="Python.visualizing_seasonal_patterns" />
-        <item itemvalue="Python.basic_visualization_of_time_series_data" />
-        <item itemvalue="Python.aggregating_trade_data" />
+        <item itemvalue="Python.leverage_effects" />
+        <item itemvalue="Python.small_and_decreasing_autocorrelation_in_squared_abs_returns" />
+        <item itemvalue="Python.volatility_clustering" />
+        <item itemvalue="Python.non_gaussian_distribution_of_returns" />
+        <item itemvalue="Python.hurst_exponential" />
       </list>
     </recent_temporary>
   </component>

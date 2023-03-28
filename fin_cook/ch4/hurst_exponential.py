@@ -26,10 +26,12 @@ def get_hurst_exponent(ts, max_lag=20):
     hurst_exp = np.polyfit(np.log(lags), np.log(tau), 1)[0]
     return hurst_exp
 
+
 # Calculate the values of the Hurst exponent using diff values for the max_lag parameter
 for lag in [20, 100, 250, 500, 1000]:
     hurst_exp = get_hurst_exponent(df["Adj Close"].values, lag)
     print(f"Hurst exponent with {lag} lags: {hurst_exp:.4f}")
+
 
 # The more lags we include, the closer we get to the verdict that the S&P 500 series is a random walk
 

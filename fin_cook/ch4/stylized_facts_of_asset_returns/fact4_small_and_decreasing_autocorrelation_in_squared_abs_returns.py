@@ -29,3 +29,6 @@ smt.graphics.plot_acf(np.abs(df["log_rtn"]), lags=N_LAGS, alpha=SIGNIFICANCE_LEV
 ax[1].set(ylabel="Absolute Returns", xlabel="Lag")
 
 plt.show()
+
+# We can observe the small and decreasing values of auto correlation for the squared and absolute returns, which are in
+# line with the fourth stylzed fact.

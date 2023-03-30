@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact4_small_and_decreasing_autocorrelation_in_squared_abs_returns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/ma.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/leverage_effects.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact5_leverage_effects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/non_gaussian_distribution_of_returns.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact1_non_gaussian_distribution_of_returns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/small_and_decreasing_autocorrelation_in_squared_abs_returns.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact3_absence_of_autocorrelation_in_returns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/volatility_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact2_volatility_clustering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +42,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
       <recent name="$PROJECT_DIR$/fin_cook/ch3" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fin_cook" />
       <recent name="$PROJECT_DIR$/ch3" />
     </key>
@@ -64,7 +60,7 @@
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fact3_absence_of_autocorrelation_in_returns">
+  <component name="RunManager" selected="Python.ma">
     <configuration name="backward_forward_filling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,48 +126,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fact3_absence_of_autocorrelation_in_returns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact3_absence_of_autocorrelation_in_returns.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fact4_small_and_decreasing_autocorrelation_in_squared_abs_returns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact4_small_and_decreasing_autocorrelation_in_squared_abs_returns.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="fact5_leverage_effects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,19 +147,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fact5_part2_leverage_effects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns/fact5_part2_leverage_effects.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ma" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/ma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
       <item itemvalue="Python.fact1_non_gaussian_distribution_of_returns" />
       <item itemvalue="Python.fact2_volatility_clustering" />
-      <item itemvalue="Python.fact4_small_and_decreasing_autocorrelation_in_squared_abs_returns" />
       <item itemvalue="Python.fact5_leverage_effects" />
-      <item itemvalue="Python.fact3_absence_of_autocorrelation_in_returns" />
+      <item itemvalue="Python.fact5_part2_leverage_effects" />
+      <item itemvalue="Python.ma" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fact3_absence_of_autocorrelation_in_returns" />
+        <item itemvalue="Python.ma" />
         <item itemvalue="Python.fact5_leverage_effects" />
-        <item itemvalue="Python.fact4_small_and_decreasing_autocorrelation_in_squared_abs_returns" />
+        <item itemvalue="Python.fact5_part2_leverage_effects" />
         <item itemvalue="Python.fact2_volatility_clustering" />
         <item itemvalue="Python.fact1_non_gaussian_distribution_of_returns" />
       </list>

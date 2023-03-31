@@ -13,7 +13,7 @@ df = yf.download("IBM",
 df["sma_20"] = df["Close"].rolling(window=20).mean()
 
 fig, ax = plt.subplots()
-df[["sma_20", "Close"]].plot(ax=ax)
+df[["sma_20"]].plot(ax=ax, title="20-day Simple Moving Average (SMA)")
 
 plt.show()
 

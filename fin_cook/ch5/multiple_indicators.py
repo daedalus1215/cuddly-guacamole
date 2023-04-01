@@ -6,7 +6,7 @@ from ta import add_all_ta_features
 
 df = yf.download("IBM",
                  start="2020-01-01",
-                 end="2020-12-31",
+                                                                                                                                     end="2020-12-31",
                  progress=False,
                  auto_adjust=True)
 

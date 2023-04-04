@@ -1,2 +1,6 @@
 lib/*
 data/*
+fin_cook/data/*
+fin_cook/bin/*
+fin_cook/share/*
+fin_cook/etc/*

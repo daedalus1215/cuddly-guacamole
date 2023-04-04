@@ -5,13 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/macd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/multiple_indicators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/raw_ma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/raw_rsi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/ipython" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/ipython3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jsonschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter-kernel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter-kernelspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter-migrate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter-run" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/jupyter-troubleshoot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/markdown-it" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/plasma_store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/pygmentize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/pysemver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/streamlit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/streamlit.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/bin/wheel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/.python-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/pipstuff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch5/technical_analysis_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/etc/jupyter/nbconfig/notebook.d/pydeck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/kernels/python3/kernel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/kernels/python3/logo-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/kernels/python3/logo-64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/kernels/python3/logo-svg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/install.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/schemas/@jupyter-widgets/jupyterlab-manager/package.json.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/schemas/@jupyter-widgets/jupyterlab-manager/plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/113.270dbb43db912c1b3723.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/113.270dbb43db912c1b3723.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/134.402424ef4079078b2e0e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/150.1a6d6a3a0542a41bec5a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/291.0b98a9cbc7337e1749ed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/291.0b98a9cbc7337e1749ed.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/345.03be96cd091aac4797a5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/495.ea5e18a84b54f152ae61.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/595.b7741b41fd98f8f3d844.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/596.340cb969418e72309eb4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/61.21f571face17e35076c2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/644.7d1bff49f8e38fac4070.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/699.2ea6ecfcddb8f3bb4732.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/965.b0caf50c6bbde92efb37.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/remoteEntry.35e76720037cafa02724.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/static/third-party-licenses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/133.62e52ae6393385996a5d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/423.a173fe7fc002e2014c2a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/478.f7319c49bce7c550ff08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/478.f7319c49bce7c550ff08.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/486.6450efe6168c2f8caddb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/486.6450efe6168c2f8caddb.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/657.45241f6c658a64d78612.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/855.3df3272be51618b38ffb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/remoteEntry.14a31ea2a1e94779c174.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/labextensions/jupyterlab-plotly/static/third-party-licenses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyter-js-widgets/extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyterlab-plotly/extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyterlab-plotly/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/jupyterlab-plotly/index.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/pydeck/extensionRequires.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/pydeck/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/jupyter/nbextensions/pydeck/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/share/man/man1/ipython.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipstuff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fin_cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fin_cookbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch5/ma.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch5/ma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch5/rsi.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch5/rsi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch5/bullish_candlesticks.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch5/bullish_candlesticks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +138,7 @@
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multiple_indicators">
+  <component name="RunManager" selected="Python.technical_analysis_app">
     <configuration name="backward_forward_filling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +162,7 @@
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
       </method>
     </configuration>
-    <configuration name="ma" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bearish_candlesticks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +174,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/ma.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/bearish_candlesticks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bullish_candlesticks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/bullish_candlesticks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="raw_rsi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="technical_analysis_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,28 +258,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/raw_rsi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rsi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/rsi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/technical_analysis_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,19 +269,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
-      <item itemvalue="Python.ma" />
-      <item itemvalue="Python.raw_rsi" />
-      <item itemvalue="Python.rsi" />
       <item itemvalue="Python.macd" />
       <item itemvalue="Python.multiple_indicators" />
+      <item itemvalue="Python.bearish_candlesticks" />
+      <item itemvalue="Python.bullish_candlesticks" />
+      <item itemvalue="Python.technical_analysis_app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.technical_analysis_app" />
+        <item itemvalue="Python.bullish_candlesticks" />
+        <item itemvalue="Python.bearish_candlesticks" />
         <item itemvalue="Python.multiple_indicators" />
         <item itemvalue="Python.macd" />
-        <item itemvalue="Python.rsi" />
-        <item itemvalue="Python.ma" />
-        <item itemvalue="Python.raw_rsi" />
       </list>
     </recent_temporary>
   </component>

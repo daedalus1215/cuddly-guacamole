@@ -9,7 +9,7 @@ from pandas import (
     Series,
 )
 
-
+# using @st.cache to cache the results, incase the user refreshes or something.
 @st.cache
 def get_sp500_components() -> (list, dict):
     """download a list of S&P 500 constituents from wikipedia"""
@@ -128,7 +128,7 @@ data_exp.download_button(
 
 # Create the candlestick chart with the selected TA indicators:
 title_str = f"{tickers_companies_dict[ticker]}'s stock price"
-qf = cf.QuantFig(df, title=title_str)
+qf = cf.QuantFig(df, title=title_str) # use cufflink so we can visualize a selection of technical indicators in as few lines of code as possible.
 if volume_flag:
     qf.add_volume()
 if sma_flag:

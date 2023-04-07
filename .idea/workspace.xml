@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fin_cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fin_cookbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stionarity_in_time_series.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch5/pipstuff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch5/technical_analysis_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch5/technical_analysis_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +47,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch6" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook/ch6" />
       <recent name="$PROJECT_DIR$/fin_cook/ch5" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
       <recent name="$PROJECT_DIR$/fin_cook/ch3" />
-      <recent name="$PROJECT_DIR$/fin_cook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
@@ -68,7 +65,7 @@
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.time_series_decomposition">
+  <component name="RunManager" selected="Python.stl_time_series_decomposition">
     <configuration name="backward_forward_filling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiple_indicators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stl_time_series_decomposition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/multiple_indicators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,19 +196,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
-      <item itemvalue="Python.multiple_indicators" />
       <item itemvalue="Python.bearish_candlesticks" />
       <item itemvalue="Python.bullish_candlesticks" />
       <item itemvalue="Python.technical_analysis_app" />
       <item itemvalue="Python.time_series_decomposition" />
+      <item itemvalue="Python.stl_time_series_decomposition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stl_time_series_decomposition" />
         <item itemvalue="Python.time_series_decomposition" />
         <item itemvalue="Python.technical_analysis_app" />
         <item itemvalue="Python.bullish_candlesticks" />
         <item itemvalue="Python.bearish_candlesticks" />
-        <item itemvalue="Python.multiple_indicators" />
       </list>
     </recent_temporary>
   </component>

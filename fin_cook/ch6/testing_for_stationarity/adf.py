@@ -1,11 +1,6 @@
-import pandas as pd
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.tsa.stattools import adfuller
 import pandas as pd
 import nasdaqdatalink
-import seaborn as sns
-import statsmodels.tsa.seasonal as seasonal
-import matplotlib.pyplot as plt
 
 nasdaqdatalink.read_key(filename='/data/nasdaqdatalinkkey')
 

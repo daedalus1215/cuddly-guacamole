@@ -13,6 +13,8 @@ df = (
 
 
 def kpss_test(x, h0_type="c"):
+    """A value of 'c' correspponds to the null hypothesis stating that the series is level-stationary, while 'ct'
+    corresponds to trend-stationary (removing the trend from the series would makr it level-stationary"""
     indices = ["Test Statistic", "p-value", "# of Lags"]
 
     kpss_test = kpss(x, regression=h0_type)
@@ -33,6 +35,7 @@ print(kpss_test(df["unemp_rate"]))
 # Generate the ACF/PACF plots:
 
 N_LAGS = 40
+# Choosing 5% which indicates the probability of rejecting the null hypothesis (H0) when it is in fact true.
 SIGNIFICANCE_LEVEL = 0.05
 
 fig, ax = plt.subplots(2, 1)
@@ -40,3 +43,6 @@ plot_acf(df["unemp_rate"], ax=ax[0], lags=N_LAGS, alpha=SIGNIFICANCE_LEVEL)
 plot_pacf(df["unemp_rate"], ax=ax[1], lags=N_LAGS, alpha=SIGNIFICANCE_LEVEL)
 
 plt.show()
+# In this series of data and ACF plot we can see that there are "significant autocorrelations (above the 95% confidence
+# interval, corresponding to the selected 5% signficance level). There are also some significant auto-correlations at
+# lags 1 and 4 in the PACF plot.

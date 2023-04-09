@@ -1,10 +1,7 @@
-import pandas as pd
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.tsa.stattools import kpss
 import pandas as pd
 import nasdaqdatalink
-import seaborn as sns
-import statsmodels.tsa.seasonal as seasonal
 import matplotlib.pyplot as plt
 
 df = (
@@ -13,6 +10,7 @@ df = (
                        end_date="2019-12-31")
         .rename(columns={"Value": "unemp_rate"})
 )
+
 
 def kpss_test(x, h0_type="c"):
     indices = ["Test Statistic", "p-value", "# of Lags"]
@@ -24,6 +22,7 @@ def kpss_test(x, h0_type="c"):
         results[f"Critical Value ({key})"] = value
 
     return results
+
 
 print(kpss_test(df["unemp_rate"]))
 
@@ -39,3 +38,5 @@ SIGNIFICANCE_LEVEL = 0.05
 fig, ax = plt.subplots(2, 1)
 plot_acf(df["unemp_rate"], ax=ax[0], lags=N_LAGS, alpha=SIGNIFICANCE_LEVEL)
 plot_pacf(df["unemp_rate"], ax=ax[1], lags=N_LAGS, alpha=SIGNIFICANCE_LEVEL)
+
+plt.show()

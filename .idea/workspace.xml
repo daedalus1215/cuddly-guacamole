@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/arch_adf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fin_cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fin_cookbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/kpss_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/kpss_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kpss_test">
+  <component name="RunManager" selected="Python.arch_adf">
     <configuration name="adf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +81,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/adf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="arch_adf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/arch_adf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,27 +132,6 @@
       <method v="2">
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
       </method>
-    </configuration>
-    <configuration name="bullish_candlesticks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/bullish_candlesticks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="kpss_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
@@ -196,19 +198,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
-      <item itemvalue="Python.bullish_candlesticks" />
       <item itemvalue="Python.technical_analysis_app" />
       <item itemvalue="Python.stl_time_series_decomposition" />
       <item itemvalue="Python.adf" />
       <item itemvalue="Python.kpss_test" />
+      <item itemvalue="Python.arch_adf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arch_adf" />
         <item itemvalue="Python.kpss_test" />
         <item itemvalue="Python.adf" />
         <item itemvalue="Python.stl_time_series_decomposition" />
         <item itemvalue="Python.technical_analysis_app" />
-        <item itemvalue="Python.bullish_candlesticks" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +244,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

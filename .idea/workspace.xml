@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/chapter_6_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/deflate_and_natural_logarithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/zivot_andrews_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/kpss_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/kpss_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +50,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity" />
       <recent name="$PROJECT_DIR$/fin_cook/ch6" />
       <recent name="$PROJECT_DIR$/fin_cook/ch5" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
-      <recent name="$PROJECT_DIR$/fin_cook/ch3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary" />
+      <recent name="$PROJECT_DIR$/fin_cook" />
       <recent name="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity" />
       <recent name="$PROJECT_DIR$/fin_cook/ch4/stylized_facts_of_asset_returns" />
-      <recent name="$PROJECT_DIR$/fin_cook" />
       <recent name="$PROJECT_DIR$/fin_cook/ch3" />
-      <recent name="$PROJECT_DIR$/ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.arch_adf">
+  <component name="RunManager" selected="Python.deflate_and_natural_logarithm">
     <configuration name="adf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +135,27 @@
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_black" />
       </method>
     </configuration>
+    <configuration name="deflate_and_natural_logarithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fin_cookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/deflate_and_natural_logarithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="kpss_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stl_time_series_decomposition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="zivot_andrews_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fin_cookbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,32 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="technical_analysis_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fin_cookbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fin_cook/ch5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch5/technical_analysis_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/zivot_andrews_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,19 +200,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.backward_forward_filling" />
-      <item itemvalue="Python.technical_analysis_app" />
-      <item itemvalue="Python.stl_time_series_decomposition" />
       <item itemvalue="Python.adf" />
       <item itemvalue="Python.kpss_test" />
       <item itemvalue="Python.arch_adf" />
+      <item itemvalue="Python.zivot_andrews_test" />
+      <item itemvalue="Python.deflate_and_natural_logarithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.deflate_and_natural_logarithm" />
+        <item itemvalue="Python.zivot_andrews_test" />
         <item itemvalue="Python.arch_adf" />
         <item itemvalue="Python.kpss_test" />
         <item itemvalue="Python.adf" />
-        <item itemvalue="Python.stl_time_series_decomposition" />
-        <item itemvalue="Python.technical_analysis_app" />
       </list>
     </recent_temporary>
   </component>

@@ -1,6 +1,4 @@
-import pandas as pd
 import nasdaqdatalink
-import seaborn as sns
 import statsmodels.tsa.seasonal as seasonal
 import matplotlib.pyplot as plt
 

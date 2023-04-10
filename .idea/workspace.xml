@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ab88a-1950-43d9-a3d9-604a6b214064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/chapter_6_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/deflate_and_natural_logarithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin_cook/ch6/testing_for_stationarity/zivot_andrews_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/stl_time_series_decomposition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/time_series_decomposition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/deflate_and_natural_logarithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fin_cook/ch6/non_stationary_to_stationary/deflate_and_natural_logarithm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

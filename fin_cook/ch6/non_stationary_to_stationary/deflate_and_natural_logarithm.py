@@ -14,10 +14,11 @@ df = (
                        end_date="2010-12-31")
         .rename(columns={"Value": "price"})
         .resample("M")
-        .last()
+        .last()  # just get the last date of the month, def ensures we get no dups
 )
 
-# Deflate the gold prices to the 2010-12-31 USD values and plot the results:
+# Deflate the gold prices to the 2010-12-31 USD values and plot the results
+# Can adjust the gold prices to another point in time, as long as it is the same point for the entire series.
 DEFL_DATE = date(2010, 12, 31)
 
 df["dt_index"] = pd.to_datetime(df.index)
@@ -30,18 +31,16 @@ df["price_deflated"] = df.apply(
         .plot(title="Gold Price (deflated) to 2010 prices")
 )
 
-# Can adjust the gold prices to another point in time, as long as it is the same point for the entire series.
 # Apply the natural logarithm to the deflated series and plot it together with the rolling metrics:
 WINDOW = 12
 selected_columns = ["price_log", "rolling_mean_log", "rolling_std_log"]
 
-df["price_log"] = np.log(df.price_deflated)
+df["price_log"] = np.log(df.price_deflated) # iron out any appeared exponential trend into linear.
 df["rolling_mean_log"] = df.price_log.rolling(WINDOW).mean()
 df["rolling_std_log"] = df.price_log.rolling(WINDOW).std()
 (
     df[selected_columns].plot(title="Gold Price (deflated + logged)", subplots=True)
 )
-
 
 ### Are we stationary?
 fig = test_autocorrelation(df["price_log"])
@@ -60,6 +59,5 @@ df[selected_columns_diff].plot()
 
 # Test if time series is finally stationary
 fig = test_autocorrelation(df["price_log_diff"].dropna())
-
 
 plt.show()
